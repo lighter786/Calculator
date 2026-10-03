@@ -25,3 +25,7 @@ while a > 0 and b > 0:
     if ans is not None:
         print(f"{a} {operation} {b} = {ans}")
         history_operations.append(ans)
+
+    word = input("Хотите выйти? ")
+    if word == "stop":
+        break  
