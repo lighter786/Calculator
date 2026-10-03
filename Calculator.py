@@ -32,3 +32,7 @@ while a > 0 and b > 0:
 
     a, b = map(int, input("Введи два числа в строку: ").split())
     operation = input("Введите операцию: ")
+
+print("\nИстория операций:")
+for idx, value in enumerate(history_operations, start=1):
+    print(f"{idx}) {value}")
