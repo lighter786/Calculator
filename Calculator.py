@@ -28,4 +28,7 @@ while a > 0 and b > 0:
 
     word = input("Хотите выйти? ")
     if word == "stop":
-        break  
+        break
+
+    a, b = map(int, input("Введи два числа в строку: ").split())
+    operation = input("Введите операцию: ")
